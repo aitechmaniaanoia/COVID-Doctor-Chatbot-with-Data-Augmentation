@@ -1,0 +1,244 @@
+------------example 0----------
+patient query: Do I have covid 19?
+ground truth: Brief opinion: Unknown   Without any details it's impossible to say.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Not yet   The current guidelines are to self-quarantine for 14 days, then seek care if sick, or travel to high risk country, or been in facility treating people with COVID-19
+------------example 1----------
+patient query: 21 month old has a fever 38.7 and dry cough?
+ground truth: Contact doctor. Was he/she exposed to coronavirus or flu or other illness?He/she may need to be examined and/or tested. Please call his/her doctor to discuss and possibly be examined for proper diagnosis and treatment.
+prediction:  Brief opinion: Fever   Fever is common with COVID-19.   Usually, a person sees the doctor (call first) if fever is not gone.  Usually a person is seen by
+------------example 2----------
+patient query: Are there specific animals or pets more likely to catch corona than others? Which animals should I be staying away from?
+ground truth: Brief opinion: Limited risk   From my reading the corona virus is limited in the animals it infests to varieties of bats and snakes.   I would not put your dog or cat on such a list.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Any animal or pet that can catch the virus should be avoided.   Some animals or pets are more susceptible to catching the virus than others.  Would you like to video or text chat with me?
+------------example 3----------
+patient query: Why does HIV RNA appear in blood earlier than its antigens and not together?
+ground truth: Viral physiology. HIV is a virus that exists to replicate and increase its numbers, primarily, it’s just how the virus functions, prioritizes replication over other functions. I’m sure there is more complex immunologic answer from a specialist in infectious diseases.
+prediction:  Brief opinion: RNA appears in blood earlier   RNA appears as a separate entity from the other proteins in your blood.    This is because the two proteins are not linked.  Would you like to video or text chat with me
+------------example 4----------
+patient query: Because I have type 1 diabetes, does that mean I can’t get the virus just mildly? Am I likely to have severe complications? Please help.
+ground truth: Diabetes + Covid-19. Because you are a Type I diabetic it means that you are at greater risk for complications if you contract Covid-19. If you have had a sore throat for a few days that gets worse every day, and if you have a fever over 100F, call your General Physician. .
+prediction:  Diabetes. If you have diabetes, you are at higher risk for severe complications from the virus. Your risk is more likely to be from underlying conditions such as heart disease, kidney disease, or other conditions.
+------------example 5----------
+patient query: Can wheezing and some difficulty breathing be symptoms of corona virus? I don’t feel anything else so far and I’ve only felt it a few hours
+ground truth: Brief opinion: Yes:   Not wheezing but difficulty of breathing is a symptom of the corona virus infection but it is not the common one.   It can be seen sometimes. The common symptoms are fever and cough mostly dry cough. The wheezing could be due to asthma or allergies in general. Since covid 19 can be seen even without any symptoms i suggest you to get in touch with your doctor for advise and follow up with you.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Difficult to say   If you are having difficulty breathing, you may have COVID-19.    Try to do a virtual consult with your doctor and get instructions regarding testing and possible hospitalization.  Would
+------------example 6----------
+patient query: That really sucks. Will the flu vaccine help by any chance?
+ground truth: No, influenza vaccines protect against viruses that cause influenza, often called the flu. The vaccine does not protect against other viruses or bacteria that cause common colds, stomach flu, or COVID-19.
+prediction:  Brief opinion: No   There is no evidence to support that flu vaccine helps prevent COVID-19.    The vaccine is not meant to prevent COV-19, but to protect against coronavirus infection.  Would
+------------example 7----------
+patient query: Been sneezing / stuffy nose and slight sore throat since returning from France, temperature is okay, not coughing or high fever symptoms, should I be alarmed?
+ground truth: Simple Cold but..... Sounds like simple Cold, But under the current health challenges of the world, it's best to be preemptive. And because Covid-19 is an infectious disease mostly transmitted through respiratory fluid droplets, One should first follow the WHO/CDC  current guidelines on hygiene. Then gargle with salt-water or vinegar-water after each meal/bedtime plus take Aleve or Ibuprofen for soreness/fever...   .
+prediction:  Brief opinion: Not yet   If you have a fever, cough or sore throat, call your health care provider and arrange for testing.    They can give you a test if you have access.  Would you like to video
+------------example 8----------
+patient query: I was confirmed to have covid-19, I self-isolated for 14 days. My concern is with my 1 year 6 months son Nabi who has been caughing. ?
+ground truth: Brief opinion: Keep isolated   The baby very likely has the infection.    However, the data are very reassuring on children less than 10 year old.  I am certain there has been no deaths recorded. Treat as you would if the baby had a cold.  Follow the following isolation guidelines:  https://www.healthtap.com/blog/covid-19-care-guidelines/self-quarantine-guide  I think you will find this improving in a few days.   Would you like to video or text chat with me?
+prediction:  Brief opinion: Concern   If your child is having cough, fever, shortness of breath, cough, or shortness to breath, please contact your pediatrician and get instructions regarding testing and possible hospitalization.    You
+------------example 9----------
+patient query: I take care of my mother and she might have a mild condition. Should I get her tested?
+ground truth: Yes. People who are vulnerable to COVID-19 complications should get tested if they develop symptoms, even if they are mild. Physicians and nurse practitioners may have a lower threshold for testing people who are more vulnerable to complications from COVID-19, or people who care for these individuals.
+prediction:  Brief opinion: Call your doctor   Your mother is in good hands and should be fine.   Call your health care provider and get instructions regarding testing.  Would you like to video or text chat with me?
+------------example 10----------
+patient query: I think I have COVID-19. I have difficulty breathing (shortness of breath), tightness in chest, sore throat and light fever. Symptoms have been progressing and getting stronger over the last 4 days. I had diarrhea two days ago.
+ground truth: Brief opinion: If bad, needs ER   COVID-19 pandemic at this time, so a doctor on video may consult by video instead of requiring an in-person visit.   Flu-like symptoms can be from a strep throat infection, a cold or influenza, or from some other cause like COVID-19. Usually, a person calls the doctor if the symptoms are bothersome, serious, recurrent, or persistent. COVID-19 testing depends on local availability. (3/22/20)  Would you like to video or text chat with me?
+prediction:  Brief opinion: Difficult to say   Difficultly to say.    Throat pain can be from a strep throat infection (antibiotics needed), a cold or influenza (antiloptysis usually not used
+------------example 11----------
+patient query: I am a 46 year old female. I've had Trach for the last 9 months due to stridor, bronchospasm and larageal spasms. I am currently being worked up for autoimmune disease. I am on Xoliar am I more susceptible to coronavirus?
+ground truth: Yes. VEry very important for you to stay in quarantine and not go and shop. Also make sure anything that comes into your house is sanitized. EVery single thing. Sanitize. KEep 2 m away from everyone and wear a buff or home made mask that covers your nose and mouth. Be safe. Be positive. We will get through this.
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.You are having bronchospasm with a corona virus. So better to consult pulmonologist and get done bronch
+------------example 12----------
+patient query: Yes, can you tell me if it's safe to handle cash and documents?
+ground truth: The risk of COVID-19 transmission by cash and documents is low and is expected to be similar to other common surfaces such as doorknobs and handrails. It is safe to handle cash and documents. However, it would be advisable to wash your hands frequently, and always before eating, after using the washroom, and before touching your face.
+prediction:  Brief opinion: Not as safe as you might hope    Most banks are not allowing cash and documents to be handled in their offices.   Only banks that are fully licensed to handle cash and other documents are
+------------example 13----------
+patient query: Hi ,  Can I use Oralcon birth control pills even though we have the coronavirus epademic ?
+ground truth: Brief opinion: Yes   I am unaware of any contraindication to using BCP and the virus.   Would you like to video or text chat with me?
+prediction:  Brief opinion: Yes, you can continue to take oral contraceptives.   The oral contraceptives are meant to prevent pregnancy, not prevent it from occurring.  Would you like to video or text chat with me?
+------------example 14----------
+patient query: I work in a call center and one of my agents tested positive for Covid-19, sent her home Wednesday to get tested and yesterday they came back positive?
+ground truth: CoVid. https://www.healthtap.com/blog/covid-19-care-guidelines/resources-for-managing-covid-19https://www.healthtap.com/blog/covid-19-care-guidelines/self-quarantine-guide.
+prediction:  Brief opinion: Call center workers should get tested.   Call centers are not testing labs, so call your local call center to get instructions regarding testing.  Would you like to video or text chat with me?
+------------example 15----------
+patient query: I have a sore throat and I’m tired. I haven’t slept well in the last two days. Just haven’t been able to rest tossing and turning thinking - stress. Should I assume sore throats is associated with the coronavirus . Sore throat started today.
+ground truth: Brief opinion: Call Dr. by video. Throat pain can be from a strep throat infection (antibiotics needed), a cold or influenza (antibiotics usually not used), or from some other cause such as allergies or irritants.   Usually, a person sees the doctor (call first) if the sore throat is bothersome, recurrent, or doesn't go away quickly. COVID-19 infections tend to have cough, whereas strep usually lacks cough but has more throat pain.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Throat pain   Throat pains can be from a strep throat infection (antibiotics needed), a cold or influenza, or from some other cause such as allergies or irritants.   Usually, a person
+------------example 16----------
+patient query: I have a dry cough and a sore throat. I do not have a fever and a slight headache (could be I need more water) I am 4 months pregnant and not sure If I should be tested for Corona?
+ground truth: Socially isolate. get pleanty of fluids and rest and avoid others call dr if fever or difficulty breathing.
+prediction:  Brief opinion: Test   If you have a fever and/or a sore throat, please contact your health care provider to get instructions regarding testing.    You should also drink plenty of fluids and rest.  Would you like to
+------------example 17----------
+patient query: Last year during flu season had a severe cough, difficulty breathing and xray show there was fluid in my chest/lungs. Any advice on what to do with this covid 19.
+ground truth: Covid. Follow recommendations. Flu last year and Covid this year are two separate issues. At 33 your risk of sever infection is low. Follow the guidelines for COViD. The guidelines are as follows:https://www.healthtap.com/blog/covid-19-care-guidelines/self-quarantine-guide.
+prediction:  Brief opinion: Covid 19   If you have access to testing, do that.   Call your local emergency line for instructions.  Would you like to video or text chat with me?
+------------example 18----------
+patient query: Hello, im a female of 26, heavy smoker with last breath reading of 33 and drink daily. On Thursday I suffered from a severe headache which stayed until Friday evening, as the headache subsided I had a tingling and pressure sensation over head which was also over my nose. I have had no fever, cold etc Yesterday I felt very lightheaded and also after an episode of diarrea this morning am lightheaded again... I have no trouble breathing as such but I suffer from anxiety which I think has been happening alot today. I have had some twinge type pains in my lower chest ( like at the bottom of ribs) for a few days but not necessarily when I breath in and out and when I do cough I have had mucus? Come up, it s almost like it s stuck in my throat also.... I have some head pressure and am getting cold feet every now and then everything I ve checked says pneumonia does this sound like what I could have or could it just be anxiety, I m a little worried...the symptoms separately come and go but my head stays feeling.a little heavy! Chills now and again
+ground truth: Hello,According to history, yes, it might be pneumonia, but you should do a chest x-ray. Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Jnikolla
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.First of all, you should definitely consult your GP.Secondly, you need to get tested for COVID-19.Third
+------------example 19----------
+patient query: Can I get sick from people who don't have symptoms?
+ground truth: There have been instances of transmission before the person became sick or when a person's symptoms were so mild that they did not know they were sick. However, it is unclear if this contributes to significant spread of the virus in the population. Most people become ill from being in close contact with someone who shows symptoms such as coughing and sneezing, therefore transmitting the virus through droplets.
+prediction:  Brief opinion: Not as likely   Most people with COVID-19 don't have symptoms, but some do.   If you are well controlled, you should be fine.  Would you like to video or text chat with me
+------------example 20----------
+patient query: Thanks alot.
+ground truth: No problem, let us know if you come across anything else.
+prediction:  Is there anything else I can help today?
+------------example 21----------
+patient query: If my wife (she is a nurse in a surgery) comes into contact with a patient with the virus, is she likely to then get it herself, if she is wearing gloves and mask etc?
+ground truth: It is unlikely. Mefical personnel are trained to avoid these situations.Nevertheless recommend her to take off her clothes when she gets home and go directly to take a shower. Also is recommended to disinfect all the areas she touches before washing her hands, like door knobs and surfaces.
+prediction:  Brief opinion: Not as likely   If she is wearing gloves and mask, she is less likely to get it.    She is also more likely to cough and sneeze if she is exposed to a patient with the virus
+------------example 22----------
+patient query: My husband (age 63 and in great health) was diagnosed with strep pneumonia and spent 3 days in the hospital, he was released with antibiotic Levaquin, after 5 days I had to bring him back to the ER because he spiked a fever of 101. They discovered that the original pneumonia of the right upper lung was almost gone but it had spread to the lower lobe. They discharged him with prescriptions for Azrithomycin 500 mg once a day for 7 days and Amox TR-K CLV 875-125 twice a day for 10 days. The Amox is making him very nauseated and he gets headaches from it. Can he stop taking it after 7 days instead of 10? Generally he is feeling better, no fever since beginning the two antibiotic combination?
+ground truth: It will be better if he takes it for 10 days. In order to prevent from nausea and headache you cam give him combination of antacid with antiemetic i.e drugs like PANTOP D OR NUPENTA DSR OR GEMPRAZ DSR ONCE A DAY for the rest of the treatment period.
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia is a chronic disease and it can recur. So better to consult pulmonologist and get done chest x
+------------example 23----------
+patient query: Thank you doctor, I have phlegm but not a lot. A tiny amount comes out most of the time. I have no difficulty in breathing. No medical conditions and not a smoker nor a drinker.
+ground truth: Hi, I would recommend you take n-acetylcysteine 200 mg powder dissolved in water three times a day. You may also nebulize using PNSS (saline nebulizer) three times a day. This will help the phlegm to come out. I would also recommend you take vitamin C 500 mg and zinc to boost your immune system. If symptoms persist, worsen or new onset of symptoms has been noted, further consult is advised.
+prediction:  Hello dearWarm welcome to Healthcaremagic.comI have evaluated your query thoroughly.*  The following advice is based on the available information.*
+------------example 24----------
+patient query: My sister has recently had a bone marrow transplant. In June she had a lung infection and since has had breathing problems. She has just been readmitted and a scan showed pneumonia, pus and fluid has been drained and further tests have shown she has a fistula? If this is treated will her breathing problems be eased?
+ground truth: Thanks for your question on Healthcare Magic.I can understand your concern. Yes, if we treat Fistula, drain pus and fluid and cure pneumonia, her breathing will be eased.Since she is bone marrow transplant patient, possibility of atypical bacterial infection is more likely because of immunosuppression.So get done bronchoscopy and BAL culture. Also get done fluid culture and sensitivity report. Culture report will isolate the causative organism and sensitivity report will guide about effective antibiotic treatment. By these, we can achieve faster recovery. Hope I have solved your query. I will be happy to help you further. Wishing good health to your sister. Thanks.
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia is usually caused by a strep throat infection (antibiotics needed), but sometimes from a stre
+------------example 25----------
+patient query: I have had a sore throat for a few days, Tuesday Night it felt like tonsils, Yesterday it started becoming scratchy and today I have started coughing and spitting mucus. I do not have a fever, But i get light headed here and there, could it be Covid-?
+ground truth: Brief opinion: Very unlikely   It sounds more like a viral cold.   covid does not present this way. treat the symptoms,consult GP if worse or if sputum changes color.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Throat pain   Throat pains can be from a strep throat infection (antibiotics needed), a cold or influenza (antacretamines usually not used), or from some other cause such as allergies or irrit
+------------example 26----------
+patient query: Should I invest in a reusable mask to protect myself from COVID-19? I know a lot of people wear those in Asian countries and they look kinda nice.
+ground truth: Brief opinion: Barrier protection   Most of these masks won't completely protect you from a virus, which can penetrate these materials however that does not mean they are not useful.   A mask of any sort is good if you are coughing or sneezing to limit some of the aerosols and also is better than nothing if you are out and about in a high risk situation. The chance of you catching the virus is highly dependent on lengthexposure & dos  Would you like to video or text chat with me?
+prediction:  Brief opinion: Reusable masks   Yes, you should definitely wear a reusable mask.   They are more durable and they protect you from getting sick.  Would you like to video or text chat with me?
+------------example 27----------
+patient query: Can the coronavirus leave lung scarring? I thought I heard something about it.
+ground truth: Brief opinion: Yes    like most lung infections there will be changes in the lung structure, probably microscopically and may not be seen on X-rays,  Would you like to video or text chat with me?
+prediction:  Brief opinion: Possible   The coronavirus can cause lung scarring.    There are many causes of lung scar, including infections, pleurisy, pleural effusion, and systemic sepsis.  Would you
+------------example 28----------
+patient query: What are my chances of only getting mild symptoms if I get the virus, because I have type 1 diabetes?
+ground truth: Brief opinion: Probable   I know there is a study that shows concern for diabetics, however, this is one study and there are others that show no particular issue.   The data is clear that older, especially older than 70, multiple comorbid conditioins and smoking are critical problems. Although diabetic if it is controlled well it is likely your symptoms will be like most 38 year olds- mild.   Would you like to video or text chat with me?
+prediction:  Diabetes. If you have diabetes, your risk of severe symptoms is very low. Your risk of death is less because you are not having complications from diabetes.
+------------example 29----------
+patient query: my mother was diagonesed with multiple myloma after a hip fracture surgery 5 yrs ago by Dr Mathews at St. Stephens. She was treated for the cancer at aiims. the disease has advanced now and as a result she developed aspirational pnemonia . Due to a knock down incident we rushed her to Max hospital on 19th jan and ever since she is on the ventilator all though some antibiotic is being administered there is talk of trichotomy for her. since its nt possible to take her home and in her stage more than anything palliative care is reqd. Max being to expensive is nt sustainable. is stephens the right place for taking care of her? Can she be please adjusted in the ICU there? Also, what wouldbe the cost per day?And who will be the pulmonary expert?
+ground truth: Hello,She requires ICU care as per the symptomatic details. Stephens is right place for her; you will get pulmonologist there to take care of the issue.She has to be shifted with ICU on wheels along with ventilator support. Cost there has to be inquired.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Bhagyesh V. Patel
+prediction:  Thanks for your question on Healthcare Magic.I can understand your concern. Your mother is in advanced stage of the disease and so is not having much immunity. So better to consult pulmonologist and get done chest x ray.
+------------example 30----------
+patient query: What should I do if i get sick or someone in my house gets sick?
+ground truth: Stay home when you are sick, except to get medical care. Use a separate room and bathroom for sick household members (if possible). Furthermore, wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. Provide your sick household member with clean disposable facemasks to wear at home, if available, to help prevent spreading COVID-19 to others. Clean the sick room and bathroom, as needed, to avoid unnecessary contact with the sick person.
+prediction:  Brief opinion: Stay home   Stay home if you are sick, cover your cough and sneeze with a mask, stay home as much as possible, rest, drink fluids and monitor your temperature.   If you develop fever,
+------------example 31----------
+patient query: Hi Dr. If all I have is a dry cough, should I get tested for covid 19? No recent travel or contact with high risk individuals. I have been given permission to visit a relative in ICU during the lockdown, but don't want to make him sick.
+ground truth: Sounds risky. Using symptoms of fever, cough, or runny nose to screen for COVID-19 is not accurate because colds and flu have such symptoms. COVID testing is by nasal swab, but there's a shortage of test kits in this pandemic. Only local resources know local testing sites, times, restrictions. Even a negative test does not guarantee one does not have COVID-19. Safest for people to stay away from ICU patients.
+prediction:  Brief opinion: No    If you have no fever, cough or shortness of breath, you are not at high risk for COVID-19.   However, if you develop fever, shortness
+------------example 32----------
+patient query: No, that's it. Thanks!
+ground truth: No problem!
+prediction:  No problem! stay safe!
+------------example 33----------
+patient query: Okay, what about home made sanitizers? would that work?
+ground truth: No, Health Canada cautions that people should only use products that are on their approved or interim list of hand sanitizers. Serious problems such as burns, poisoning, lung problems and allergic reactions can occur if people use non-approved products. Non-approved products may not be effective against COVID-19 and give people a false sense of security. If you can't buy hand sanitizer, wash your hands! Washing your hands with soap and warm water for at least 20 seconds is the most effective way to reduce the risk of spreading all germs, not just COVID-19.
+prediction:  Brief opinion: No sanitizers   There are no sanitizer that are made from scratch.   Only household cleaners that are washable by hand and that are not made from plastic.  Would you like to video or text
+------------example 34----------
+patient query: I have shortness of breath and are worried, I don’t have a cough or sore throat, so they will not test me, should I do a private test?
+ground truth: Shortness of breath. Covid testing is hard to come by. At 37 you are in a lower risk group.  And I doubt you could get a test. Keep isolated for two weeks. I know we have been ordering tests through HealthTap, but that does not lead to getting the test done, due to shortages. (3/21/20)
+prediction:  Brief opinion: Test   If you have symptoms of shortness of breath and/or shortness-of- breath, please contact your health care provider to arrange for testing.    They may want to see you, but they
+------------example 35----------
+patient query: How do I know if I have corona virus?
+ground truth: TO be sure, GET TESTED!
+prediction:  Brief opinion: Not yet   The current coronavirus outbreak is worldwide, so not yet known whether you have it.    If so, you should be tested for it. If you are not, you can continue to
+------------example 36----------
+patient query: Hpv virus has affected my sex life. I bleed a lot during sex and on my period. I did a cervical cauterisation but my period is still the same and I’m scared to have sex due to bleeding as I was once hospitalised for it. Any tips on what I can do?
+ground truth: Brief opinion: Cervix trauma   One technique is to have your partner only penetrate your vagina half way to avoid trauma to the cervix.   You and your partner can still have enough stimulation and pleasure this way.  Would you like to video or text chat with me?
+prediction:  Brief opinion: No   I don't think so.   It is not going to affect sex.  Would you like to video or text chat with me?
+------------example 37----------
+patient query: I was previously diagnosed with TB but have since recovered. I do want to know if my previous diagnosis puts me at a higher risk should I contract COVID 19.
+ground truth: Covid and TB. Patients with a history of underlying lung disease do have a higher risk of morbidity and mortality with covid infection. It is important to self isolate and maintain social distancing as per the current protocols. Should you suspect covid infection get screened as early as possible.
+prediction:  Brief opinion: Possible   Your TB may predispose you to higher risk for contracting COVID-19.    If you have been previously diagnosed with TB, your risk is low.  Would you like to video or text chat
+------------example 38----------
+patient query: Do you have any idea how long novel coronavirus stays on cash money?
+ground truth: Uncertain. The exact amount of time would depend on the inoculum or how much virus was deposited and whether the cash were dry or moist . The limited studies suggest that the virus does not live very long on cardboard - about 4 hrs or so, so I suspect paper may be similar. If it were moist or wet, it may last longer. Heat may inactivate the virus, so consider setting the money in the sun or put in a drier.
+prediction:  Brief opinion: No    The virus that causes the current pandemic, the coronavirus, lives on surfaces like paper, plastic, and metal for up to 14 days.   It can live on surfaces such as receipts,
+------------example 39----------
+patient query: I ve had symptoms of cough, headache, stuffy nose, fatigue, and sore throat for 4 days. I know these are typical of common cold. However, once before (18 months ago), when I just tried to ride it out, I developed pneumonia and was in hospital for several days. Are there any precautions I can take now to prevent this from getting complicated? Thanks.
+ground truth: Yes, you are right. If you don't pay attention in common cold, it can complicate as pneumonia. So follow these steps for better symptomatic relief in common cold. Drink plenty of fluids orally and keep yourself hydrated. Do warm water gargles and steam inhalation 4-5 times a day. Avoid cold foods like ice cream, cold drinks etc. Take treatment for common cold regularly. Watch for persistent fever, chest pain, Yellowish green expectoration, breathing difficulty etc. If any of these symptom appears then immediately get done chest x ray. Avoid smoking and alcohol if you have these habits.
+prediction:  Brief opinion: Common cold   Most people with common cold get it at some point.   Usually after a few days of fever, cough and/or sore throat.  Would you like to video or text chat with me?
+------------example 40----------
+patient query: I was diagnosed with double pneumonia 1 week ago having had the symptoms for a week, I have been on heavy penicillin and am left with weakness and a bad cough. My query is that my urine is reddish brown, looks like some blood could be there. Is this part of pneumonia. Thank you for your time. Jean aged 72 and normally healthy except for overweight.
+ground truth: Hello dear Jean , hiWarm  welcome to Healthcaremagic.comI have evaluated your query in details  .* The urine color is in relation with side effect of penicillin , not a part of pneumonia .*  Has to be   addressed  immediately  to  your  treating  doctor for  this    issue .Wishing you fine recovery .Welcome for any further  guidance .Regards  .
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia causes reddish urine. So better to first treat pneumonia and then treat the reddish brown urine.
+------------example 41----------
+patient query: I have not traveled. I’ve had a headache and spite cough for about a week now. My throat is getting sore. My chest feels slightly tight but I have no fever?
+ground truth: Virus. You have a viral respiratory tract infection and the absence of fever is reassuring at this time. Should fever or shortness of breath develop and if you're in an area where covid 19 is present, you should then call your MD for instructions. For now, drink adequate fluids, gargle with warm salt water. I also recommend using zinc lozenges and take acetaminophen. .
+prediction:  Brief opinion: Throat pain   Throat pains can be from a strep throat infection (antibiotics needed), a cold or influenza (antihistamines usually not used), or from some other cause such as allergies or irrit
+------------example 42----------
+patient query: Am I at risk for COVID-19 in the United States?
+ground truth: Symptoms of COVID-19 are usually the same as a cold or the flu, with diarrhea being uncommon.
+prediction:  Brief opinion: Not at risk   Most people with COVID-19 infection are not at risk for severe illness.   However, some people with underlying medical conditions or other chronic conditions may be at higher risk.  Would you like
+------------example 43----------
+patient query: I am a family doctor in an outpatient family medicine setting, and the question was raised reguarding treatment for community acquired pneumonia. If reoccurance of infection occurs, after treatment with z pack within 90 days how  should patient be treated.
+ground truth: HelloIt depends on the age, commodities, immunity status and the cause why the pneumonia is come back again.RegardsDr.Jolanda
+prediction:  Brief opinion: If pneumonia recurrence does not occur within 90 days of treatment, then the patient should be considered for further treatment.   If pneumonia does develop within 90-days of treatment then the
+------------example 44----------
+patient query: Thank you. My doctor told me after taking an ex-Ray that I have pneumonia on my left side. I am coughing and running fever of 100 to 102 and jumping taking antibiotics amoxicillin-clav 875-125mg twice a day and azithromycin 250mg once per day also one Tylenol extra strength to bring fever down unfortunately fever won t go down just fluctuates - am I doing the right treatment - I am 86 years old
+ground truth: Hello Yes i agree with the treatment its ok continue it as the doctor gad prescribed it for you Regards Dr.Jolanda
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia is usually caused by a strep throat infection (antibiotics usually not used).So, better to first
+------------example 45----------
+patient query: I went to the doctor today and found out that I have pneumonia. I got a steroid injection and breathing treatment in the office and was sent home with levaquin, albuterol, and cough medicine. My forearms and legs are very tingly and almost numb and heavy feeling. Is this from the steroid injection? I am 23 years old and I have juvenile rheumatoid arthritis so I am also taking humira, methotrexate, plaquenil, and folic acid for the RA. Is this a side effect or a drug reaction or nothing to be concerned about?
+ground truth: Tingling in extremities may be a sign of peripheral neuropathy, wich is most of the cases caused by inflammatory injury to the nerves. Anti-TNF drugs, such as Humira, have been reported to be associated to this kind of injury, that can be potentialized when associated to steroids. You should visit your attending rheumathologist for physical evaluation and apropriate management.
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia is usually associated with muscle aches and pains.So you should definitely consult your doctor for further treatment.
+------------example 46----------
+patient query: I am on my last repeat for my chronic meds. Do I have to come in for a dr appointment on can this be done remotely given the Covid-19 lockdown?
+ground truth: Yes. Yes you should come but it will not be a consultation depending the treatment you taking. If it is for HIV  you will need to go to the lab for for  bloods and if it is for hormone replacement there is no need for consultation but either way you have to call the practice reception to check f DR is available.
+prediction:  Brief opinion: Call your doctor   Call your local emergency line for instructions on how to get tested, self-quarantine and then call your doctor.   They can give you instructions via telemedicine.  Would you like
+------------example 47----------
+patient query: Thank you so much doctor.
+ground truth: No problem, stay safe and let us know if you come across anything else.
+prediction:  No problem, let us know if you come across anything else.
+------------example 48----------
+patient query: Hello. About 3-4 weeks ago I was diagnosed with pneumonia. After two weeks I felt well enough to start getting back out, but I continued to cough up mucus. I got in the swimming pool last night and it was an outdoor pool and kind of cool. this morning I woke up with fever, wheezing bad and my back in my lung area hurts so bad. The coughing is getting worse too. Could the pneumonia have came back or never left? What should I do?
+ground truth: Thanks for your question on Healthcare Magic.I can understand your concern. Swimming pool water is full of organisms. So possibility of relapse of pneumonia is more likely because your symptoms, coughing, wheezing, chest pain are more suggestive of pneumonia. So consult your doctor and get done clinical examination of respiratory system and chest x ray. If chest x ray is showing fresh infiltrates then you will need another course of antibiotics, mucolytic and expectorant drugs. Avoid swimming for atleast 1 month.Hope I have solved your query. I will be happy to help you further. Wish you good health. Thanks.
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia is a chronic disease and it can recur.So better to first get symptomatic treatment and then follow through
+------------example 49----------
+patient query: I have a 3 yr old. Started coughing 2 nights ago not constant sounds kinda phlyemy and no other symptoms. Very low grade fever at night. Contagious?
+ground truth: Unlikely. Follow this guideline, but I do not see evidence you need to isolate. https://www.healthtap.com/blog/covid-19-care-guidelines/preventing-covid-19.
+prediction:  Brief opinion: Not as contagious as you might hope.   If you have a fever and cough, please call your pediatrician and get instructions regarding testing.  If your child is not having fever, please do not take him to the
+------------example 50----------
+patient query: Can the meat I eat give me coronavirus? Will cooking kill the coronavirus?
+ground truth: Cooking will kill. Cooking adequately will kill the virus-30 sec of ,microwave.
+prediction:  Brief opinion: No   Eating meat can give you coronavirus.    The meat you eat can give it to you.  Would you like to video or text chat with me?
+------------example 51----------
+patient query: I just came back from London last week travelling with my family and I have a cough and a sore throat. Should I test myself for Covid 19? None of my family members have any symptoms as yet? Thank you
+ground truth: Covid. Top symptoms for COVID include fever, dry cough and SOB.  Actually sore throat not so common. Follow this guideline:https://www.healthtap.com/blog/covid-19-care-guidelines/preventing-covid-19.
+prediction:  Brief opinion: Test   If you have symptoms of a cold or influenza, please contact your health care provider and get instructions regarding testing.    You can also use this platform to post on here.  Would you like to video
+------------example 52----------
+patient query: Hi  My symptoms are aching and sore joints I feel feverish but I don’t have a cough or runny nose . I do feel a little throat congestion ( phlegm ) but no sore throat. Not very sick. I have been taking viral choice and vitamin c for a month . ?
+ground truth: Brief opinion: URI   Your symptoms are consistent with a flu like upper respiratory tract infection.   Treatment would be resting, drinking adequate fluids and taking acetaminophen. Chest discomfort or shortness of breath would be concerning and if you've been exposed to anyone with covid19, who has been in an affected region or if you live in a region where covid19 is present, notify your MD and get tested.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Throat pain   Throat pains can be from a strep throat infection (antibiotics needed), a cold or influenza (antiloptylenol usually not used), or from some other cause such as allergies
+------------example 53----------
+patient query: My fiancé has been coughing uncontrollably every night for the past 4 months. He is 23 years old, 5'9", about 140 lbs., and has been told by his dr that he has walking pneumonia. He has been prescribed antibiotics, cough syrup, allergy medicine, mucinex, nasal sprays, and inhalers and although they suppress the coughing at times he still does not seem to have gotten rid of the coughing. His coughing is accompanied with phlegm and has also caused him to throw up due to the extremity. He does smoke cigars as well. What is this!?
+ground truth: Walking pneumonia is a non-medical term to describe a mild case of pneumonia. It is usually called atypical pneumonia because the disease is different from more serious cases of pneumonia caused by typical bacteria. it is often the result of a lung infection from a bacterial microorganism called Mycoplasma pneumoniae and generally treated with antibiotics. Mild infections are often not treated because they tend to clear on their own. With treatment, most people begin to feel better within a few days.
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Warm welcome to ’Ask A Dr’ platform.I can understand your concern.Worsening pneumonia is a
+------------example 54----------
+patient query: Can your only symptoms on coronavirus start as tightness of chest and shortness of breath? I’ve had this for a week now. My body aches a bit, hard to tell if this from trying so hard to breath. Nose occasionally runs, throat a little sore.
+ground truth: Possibly. if you had your symptoms for a week and they haven't gotten worse or developed into a fever, you probably do not have COVID-19.IF you are still worried see your PCP.
+prediction:  Brief opinion: Symptoms   Symptoms can be from a strep throat infection (antibiotics needed), a cold or influenza, or from some other cause such as allergies or irritants.   Usually, a person sees the doctor and
+------------example 55----------
+patient query: my cousin was admitted yesterday for pneumonia and a collasped lung which was diagnoised yesterday. they did surgery this morning by cleaning out and draining fluids. she is now heavily sadated with a tube in her right lung. what will it take for her to get well again?
+ground truth: It sound like your cousin has something called- Empyema. It is basically an abscess in the chest cavity. And the correct treatment for it is drainage - which was done appropriatley. But he should receive antibiotic treatment with coverage of both aerobic and anaerobic organisms. Usually specimens are send from the procedure to see which organisms grow and provide a more directed antibiotic coverage.
+prediction:  Hello dearWarm welcome to Healthcaremagic.comI have evaluated your query thoroughly.*  There are many reasons for this    including  pneumonia   -   kidney damage  -
+------------example 56----------
+patient query: My husband has advanced M.S.  After battling a cough for a month, he had a chest X Ray and we were told he had pneumonia. He was on an antibotic for 10 days which ended 1 week ago today. His nurse was here halfway through the dose and said his lungs sounded clear  He has not been coughing or a temprature in over a week. This evening he started coughing, phlegm is not discolored but when he coughs there is a strange odor that I can not describe. I have never smelled an odor like this
+ground truth: Hello dear Warm  welcome to Healthcaremagic.comI have evaluated your query for your husband in details  .*  This odor is in relation with underlying pneumonia causing pathogens  *  Must seek doctor`s opinion immediately , this is not normal .Wishing him fine recovery .Feel  free  to ask any further doubts .Regards  .
+prediction:  Hello and Welcome to ‘Ask A Doctor’ service.I have reviewed your query and here is my advice.Pneumonia is a chronic disease and usually resolves within 6 months.So better to first treat pneumonia and then
+------------example 57----------
+patient query: Possible COVID-19 - mild symptoms - Next steps? Symptoms: - Initially: tight chest, stuffy nose - 10% difficulty breathing - Mildly feverish (hot and dry mouth, bit weak) for a few hours yesterday - Mostly fine this morning (5% breathing difficulty)
+ground truth: May confirm with
+prediction:  Brief opinion: Difficult to say   Difficultly to say.    You may have COVID-19 or another virus.  Would you like to video or text chat with me?
+------------example 58----------
+patient query: my son is 3 years old, and came down with a head cold wed, it moved immediately to his chest (he is a preemie-grad, and has had trouble with pneumonia and rsv in past) he is running a temp, and his respiratory rate is between 48-50.  I just don't know if i should wait it out a little longer to see what the day brings or take him in. I hate feelling like i'm always there for the slightest things with him, but his history proves medical intervention always was the case. It just seems so quick that a lung issue would be evident, when he only started showing signs of a cold wednesday night.
+ground truth: Hello,Your son’s respiratory rate is too high. Please take him to ER immediately and take a chest x-ray immediately.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Siva Kumar Reddy
+prediction:  Hello,Yes, you should definitely consult his pediatrician.He should give you a call and see what he says.
+------------example 59----------
+patient query: I have pain/discomfort in my lungs. I don't experience simultaneous on both lungs and it not always at the hame position. I don't have a head nor do I have high temperature. I sneeze and cough maybe once a day. Do I have corona, should I get tested?
+ground truth: Exam needed. You are assuming that the discomfort is coming from both lungs, but pain of pleurisy or pneumonia wouldn't come and go In different sites. I doubt your symptoms are lung related, but fever, chills, sweats, worse cough, shortness of breath, wheezing, warrant testing.. If you've been exposed to someone with covid, or if you or someone you were exposed to  travelled to an affected region, get tested.
+prediction:  Brief opinion: Covid-19   If you have access to testing then do that.    You may have Covid 19 or another infection.  Would you like to video or text chat with me?
+------------example 60----------
+patient query: I have a 2 years old with cough n fever sweating which is worse at night, can she b tested for covid19?
+ground truth: Brief opinion: Yes   call your doctor for advise.  Would you like to video or text chat with me?
+prediction:  Brief opinion: Test    If she is having fever, cough or shortness of breath, then yes, get her tested.   Otherwise, keep her home as much as possible.  Would you like to video or text chat
