@@ -31,13 +31,3 @@ python3 evaluate.py --o output/gpt2_output.txt
 python3 evaluate.py --o output/Bart_output.txt 
 
 ```
-
-### Individual contribution
-
-Chenhao Wang(301409375) - Implemented Transformer training and evaluation.
-
-Yuxin (Azmarie) Wang(301263599) - Implemented GPT2 fine-tuning and evaluation.
-
-Philip Cho (301403063) - Generated the dataset by scraping the web, applied augmentation to the dataset, and created BART model
-
-We worked collaboratively on the report and the project notebook.
